@@ -60,10 +60,10 @@ print(len(b'\xe4\xb8\xad\xe6\x96\x87'))
 print(len('中文'.encode('utf-8')))
 
 # 格式化方式和C语言一样，用%实现
-#   %d    整数
-#   %f   浮点数
-#   %s   字符串
-#   %x   十六进制整数
+#    %d    整数
+#    %f    浮点数
+#    %s    字符串
+#    %x    十六进制整数
 print('Hello, %s' % 'world')
 print('Hi, %s, you have $%d.' % ('Michael', 1000000))
 
